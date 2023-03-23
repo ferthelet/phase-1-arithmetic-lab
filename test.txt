@@ -8,37 +8,24 @@
     multiply
       ✓ is an equation whose multiplied results will equal 62
     random
-      1) generates a random integer greater than 0
+      ✓ generates a random integer greater than 0
     mod
-      2) is an equation that calculates a remainder that is equal to 4
+      1) is an equation that calculates a remainder that is equal to 4
     max
-      3) will return 20 as the highest number in the set
+      2) will return 20 as the highest number in the set
 
 
-  1 passing (264ms)
-  3 failing
+  2 passing (249ms)
+  2 failing
 
   1) index.js
-       random
-         generates a random integer greater than 0:
-
-      AssertionError: expected false to be true
-      + expected - actual
-
-      -false
-      +true
-      
-      at Context.<anonymous> (test/indexTest.js:16:45)
-      at process.processImmediate (node:internal/timers:476:21)
-
-  2) index.js
        mod
          is an equation that calculates a remainder that is equal to 4:
      ReferenceError: num3 is not defined
       at Context.<anonymous> (test/indexTest.js:22:14)
       at process.processImmediate (node:internal/timers:476:21)
 
-  3) index.js
+  2) index.js
        max
          will return 20 as the highest number in the set:
      AssertionError: expected [Function: max] to equal 20

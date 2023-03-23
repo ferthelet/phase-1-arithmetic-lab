@@ -5,9 +5,7 @@ let num2 = 2;
 let multiply = num1 * num2;
 
 // generates a random integer greater than 0
-function random(num1, num2) {
-    return num1 * num2;
-}
+let random = Math.floor(Math.random() * 1000) + 1;
 
 // is an equation that calculates a remainder that is equal to 4
 function mod(num1, num2) {
