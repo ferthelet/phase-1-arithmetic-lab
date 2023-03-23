@@ -13,6 +13,4 @@ let num4 = 10;
 let mod = num3 % num4;
 
 // will return 20 as the highest number in the set
-function max(num1, num2) {
-    return num1 * num2;
-}
+let max = Math.max(2, 5, 3, 14, 12, 20);

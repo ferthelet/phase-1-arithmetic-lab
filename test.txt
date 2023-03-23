@@ -12,18 +12,8 @@
     mod
       ✓ is an equation that calculates a remainder that is equal to 4
     max
-      1) will return 20 as the highest number in the set
+      ✓ will return 20 as the highest number in the set
 
 
-  3 passing (255ms)
-  1 failing
-
-  1) index.js
-       max
-         will return 20 as the highest number in the set:
-     AssertionError: expected [Function: max] to equal 20
-      at Context.<anonymous> (test/indexTest.js:29:22)
-      at process.processImmediate (node:internal/timers:476:21)
-
-
+  4 passing (251ms)
 
