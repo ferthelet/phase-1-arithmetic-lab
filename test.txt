@@ -6,44 +6,43 @@
 
   index.js
     multiply
-      1) is an equation whose multiplied results will equal 62
+      ✓ is an equation whose multiplied results will equal 62
     random
-      2) generates a random integer greater than 0
+      1) generates a random integer greater than 0
     mod
-      3) is an equation that calculates a remainder that is equal to 4
+      2) is an equation that calculates a remainder that is equal to 4
     max
-      4) will return 20 as the highest number in the set
+      3) will return 20 as the highest number in the set
 
 
-  0 passing (265ms)
-  4 failing
+  1 passing (264ms)
+  3 failing
 
   1) index.js
-       multiply
-         is an equation whose multiplied results will equal 62:
-     ReferenceError: num1 is not defined
-      at Context.<anonymous> (test/indexTest.js:9:14)
+       random
+         generates a random integer greater than 0:
+
+      AssertionError: expected false to be true
+      + expected - actual
+
+      -false
+      +true
+      
+      at Context.<anonymous> (test/indexTest.js:16:45)
       at process.processImmediate (node:internal/timers:476:21)
 
   2) index.js
-       random
-         generates a random integer greater than 0:
-     ReferenceError: random is not defined
-      at Context.<anonymous> (test/indexTest.js:16:31)
-      at process.processImmediate (node:internal/timers:476:21)
-
-  3) index.js
        mod
          is an equation that calculates a remainder that is equal to 4:
      ReferenceError: num3 is not defined
       at Context.<anonymous> (test/indexTest.js:22:14)
       at process.processImmediate (node:internal/timers:476:21)
 
-  4) index.js
+  3) index.js
        max
          will return 20 as the highest number in the set:
-     ReferenceError: max is not defined
-      at Context.<anonymous> (test/indexTest.js:29:14)
+     AssertionError: expected [Function: max] to equal 20
+      at Context.<anonymous> (test/indexTest.js:29:22)
       at process.processImmediate (node:internal/timers:476:21)
 
 
