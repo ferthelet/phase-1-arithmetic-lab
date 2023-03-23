@@ -10,22 +10,15 @@
     random
       ✓ generates a random integer greater than 0
     mod
-      1) is an equation that calculates a remainder that is equal to 4
+      ✓ is an equation that calculates a remainder that is equal to 4
     max
-      2) will return 20 as the highest number in the set
+      1) will return 20 as the highest number in the set
 
 
-  2 passing (249ms)
-  2 failing
+  3 passing (255ms)
+  1 failing
 
   1) index.js
-       mod
-         is an equation that calculates a remainder that is equal to 4:
-     ReferenceError: num3 is not defined
-      at Context.<anonymous> (test/indexTest.js:22:14)
-      at process.processImmediate (node:internal/timers:476:21)
-
-  2) index.js
        max
          will return 20 as the highest number in the set:
      AssertionError: expected [Function: max] to equal 20
